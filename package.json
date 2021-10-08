@@ -19,6 +19,7 @@
     "yup": "^0.32.9"
   },
   "scripts": {
+    "lint": "eslint ./src",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -48,7 +49,13 @@
     "@types/node": "^16.10.3",
     "@types/react": "^17.0.27",
     "@types/react-dom": "^17.0.9",
+    "@types/react-modal": "^3.12.1",
     "@types/react-router-dom": "^5.3.1",
+    "@types/styled-components": "^5.1.15",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.26.1",
     "json-server": "^0.16.3",
     "typescript": "^4.4.3"
   }
